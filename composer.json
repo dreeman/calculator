@@ -1,0 +1,19 @@
+{
+  "name": "dreeman/calculator",
+  "description": "A simple Calculator",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dreeman",
+      "email": "dreemanmail@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.*"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {"Dreeman\\Calculator\\": "src/Dreeman/Calculator"}
+  },
+}
